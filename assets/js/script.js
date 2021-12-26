@@ -1,8 +1,8 @@
 var currentNumberWrapper = document.getElementById('currentNumber');
 var currentNumber = 0;
 
-var color = document.getElementById('currentNumber');
 function increment() {
+        var color = document.getElementById('currentNumber');
         currentNumber = currentNumber + 1;
         currentNumberWrapper.innerHTML = currentNumber;
 
@@ -17,8 +17,9 @@ function increment() {
 
 }
 
-var color = document.getElementById('currentNumber');
+
 function decrement() {
+    var color = document.getElementById('currentNumber');
     currentNumber = currentNumber - 1;
     currentNumberWrapper.innerHTML = currentNumber;
 
@@ -32,13 +33,13 @@ function decrement() {
 }
 }
 
-var number =  document.getElementById("currentNumber");
 function modifyNumber() {
+  var number =  document.getElementById("currentNumber");
   number.firstChild.nodeValue = "aperte algum butão";
 }
 
-var mood = document.getElementById("container");
-function change() {
+function change() {        
+    var mood = document.getElementById("container");
     mood.addEventListener("click", modifyNumber, false);
   }
   
